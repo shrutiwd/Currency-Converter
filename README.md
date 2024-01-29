@@ -1,4 +1,4 @@
-# Currency Conversion Program
+# Currency Converter
 
 This Python program is designed to perform currency conversion between a particular country's currency and other foreign currencies. It operates on the basic concepts of Python and allows users to convert currencies using exchange rates stored in a data file.
 
@@ -15,8 +15,8 @@ The program reads exchange rate data from a file named `currexchangedata.txt` an
 1. Clone the repository or download the script:
 
     ```bash
-    git clone https://github.com/shrutiwd/currency-converter.git
-    cd currency_converter
+    git clone https://github.com/shrutiwd/Currency-Converter.git
+    cd Currency-Converter
     ```
 
 2. Ensure you have Python installed on your system.
@@ -32,15 +32,16 @@ The program reads exchange rate data from a file named `currexchangedata.txt` an
 4. Run the program:
 
     ```bash
-    python currency_converter.py
+    python currconverter.py
     ```
 
 5. Choose the conversion option as prompted.
 
 ## File Structure
 
-- `currency_converter.py`: The main Python script for currency conversion.
+- `currconverter.py`: The main Python script for currency conversion.
 - `currexchangedata.txt`: Data file containing exchange rates.
+- `requirements.txt`: File specifying the dependencies for the program.
 
 ## Note
 
